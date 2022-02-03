@@ -11,8 +11,7 @@ const ProductForm  = () => {
 
 
 
-    const submitHandler = (e) =>{
-        e.preventDefault()
+    const submitHandler = () =>{
         
         let product = {title, price, description}
 
